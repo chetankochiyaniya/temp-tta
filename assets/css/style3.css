@@ -651,15 +651,6 @@ body:not(.dsn-cursor-effect) #dsn_cursor_inner {
     clip-path: circle(44% at 50% 50%);
 }
 
-.half-background-overlay {
-    height: 54%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none;
-}
-
 .background-overlay {
     height: 100%;
     width: 100%;
@@ -1087,19 +1078,19 @@ a:active {
     text-decoration: none;
 }
 
-
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 .menu_class {
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .site-header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding-top: 22px;
+    /* padding-top: 22px; */
+    padding-top: 5px;
     padding-bottom: 22px;
     transition-property: background-color, padding-top, padding-bottom, transform;
     transition-duration: 0.5s;
@@ -1108,6 +1099,8 @@ a:active {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    /* Update */
+    /* font-size: 20px; */
 }
 
 .site-header>.p-relative.dsn-container {
@@ -1453,7 +1446,9 @@ a:active {
 .site-header.dsn-hamburger #navbar_toggle .toggle-text {
     position: relative;
     --animate-trans: translateY(5px) rotateX(75deg);
+    /* min-width: 43px; */
     min-width: 80px;
+
 }
 
 .site-header.dsn-hamburger #navbar_toggle .toggle-text .text-open,
@@ -1745,8 +1740,10 @@ a:active {
 
 .site-header.nav-bg {
     background-color: var(--bg-color);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px;
+  padding-bottom: 10px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1755,9 +1752,11 @@ a:active {
     }
 }
 
-.site-header.hide-nav:not(.dsn-open) {
-    transform: translateY(-100%);
-}
+/* cause of this navbar dont stay fixed */
+
+/* .site-header.hide-nav:not(.dsn-open) {
+  transform: translateY(-100%);
+} */
 
 .main-brand img,
 .dsnload__img img {
@@ -1769,48 +1768,40 @@ a:active {
 .v-light #site_menu_header .main-brand .logo-dark,
 #dsn_footer.v-light .main-brand .logo-dark,
 .main-brand .logo-dark,
-.v-light #dsn_footer:not(.v-light,
-    .v-dark) .main-brand .logo-dark,
+.v-light #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-dark,
 .v-light #site_menu_header .dsnload__img .logo-dark,
 #dsn_footer.v-light .dsnload__img .logo-dark,
 .dsnload__img .logo-dark,
-.v-light #dsn_footer:not(.v-light,
-    .v-dark) .dsnload__img .logo-dark {
+.v-light #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-dark {
     display: block;
 }
 
 .v-light #site_menu_header .main-brand .logo-light,
 #dsn_footer.v-light .main-brand .logo-light,
 .main-brand .logo-light,
-.v-light #dsn_footer:not(.v-light,
-    .v-dark) .main-brand .logo-light,
+.v-light #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-light,
 .v-light #site_menu_header .dsnload__img .logo-light,
 #dsn_footer.v-light .dsnload__img .logo-light,
 .dsnload__img .logo-light,
-.v-light #dsn_footer:not(.v-light,
-    .v-dark) .dsnload__img .logo-light {
+.v-light #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-light {
     display: none;
 }
 
 .v-dark #site_menu_header .main-brand .logo-dark,
 #dsn_footer.v-dark .main-brand .logo-dark,
-.v-dark #dsn_footer:not(.v-light,
-    .v-dark) .main-brand .logo-dark,
+.v-dark #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-dark,
 .v-dark #site_menu_header .dsnload__img .logo-dark,
 #dsn_footer.v-dark .dsnload__img .logo-dark,
-.v-dark #dsn_footer:not(.v-light,
-    .v-dark) .dsnload__img .logo-dark {
+.v-dark #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-dark {
     display: none;
 }
 
 .v-dark #site_menu_header .main-brand .logo-light,
 #dsn_footer.v-dark .main-brand .logo-light,
-.v-dark #dsn_footer:not(.v-light,
-    .v-dark) .main-brand .logo-light,
+.v-dark #dsn_footer:not(.v-light, .v-dark) .main-brand .logo-light,
 .v-dark #site_menu_header .dsnload__img .logo-light,
 #dsn_footer.v-dark .dsnload__img .logo-light,
-.v-dark #dsn_footer:not(.v-light,
-    .v-dark) .dsnload__img .logo-light {
+.v-dark #dsn_footer:not(.v-light, .v-dark) .dsnload__img .logo-light {
     display: block;
 }
 
@@ -2015,7 +2006,6 @@ a:active {
 .elementor-align-right .dsn-socials .dsn-icon {
     margin: inherit;
 }
-
 
 /*--------------------------------------------------------------
 ## Next / Previous

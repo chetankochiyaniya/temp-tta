@@ -4,7 +4,8 @@
         <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
             vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
     </svg>
-    <div class="footer-content p-relative mt-section">
+    <div class="footer-content p-relative pt-70"> <!-- old: mt-section new: pt-70 -->
+        <!-- OLD FOOTER 
         <div class="text-center container">
             <h2 class="title-h2">
                 TTA - A PLACE TO
@@ -12,7 +13,22 @@
             </h2>
             <div class="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30" style="z-index:500">
                 <a class="dsn-btn dsn-border border-color-default background-section effect-ajax has-icon-left"
-                    href="contact" data-dsn-text="Contact">
+                    href="contact.php" data-dsn-text="Contact">
+                    <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="title-btn p-relative z-index-1">Contact Us</span>
+                </a>
+            </div>
+        </div> -->
+        <div class="text-center container">
+            <h2 class="title-h2">
+                <b class="letter-stroke" style="color:white"> TTA -</b> <i class="letter-stroke">A PLACE TO
+                    TRADE</i>
+            </h2>
+            <div class="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30" style="z-index:500">
+                <a class="dsn-btn dsn-border border-color-default background-section effect-ajax has-icon-left"
+                    href="contact.php" data-dsn-text="Contact">
                     <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                         <i class="fas fa-angle-right" aria-hidden="true"></i>
                     </span>
@@ -25,12 +41,12 @@
                 <div class="grid-col-1">
                     <div class="dsn-logo main-logo">
                         <div class="main-logo">
-                            <a href="index" data-dsn-text="TTA" class="custom-logo-link main-brand effect-ajax"
+                            <a href="index.php" data-dsn-text="TTA" class="custom-logo-link main-brand effect-ajax"
                                 rel="home">
                                 <img class="manual_logo custom-logo logo-light" src="assets/img/icon/Logo-w_name.png"
-                                    alt="TTA" />
+                                    alt="TTA" style="width:120% !important; margin-top:-15% !important" />
                                 <img class="manual_logo custom-logo logo-dark" src="assets/img/icon/Logo_name.png"
-                                    alt="TTA" />
+                                    alt="TTA" style="width:120% !important; margin-top:-15% !important" />
                             </a>
                         </div>
                     </div>
@@ -69,22 +85,22 @@
                     <div class="menu-footer-menu-container  d-flex justify-content-center">
                         <ul id="menu-footer-menu " class="menu">
                             <li class="menu-item text-center">
-                                <a href="index" class="effect-ajax  text-center"
+                                <a href="index.php" class="effect-ajax  text-center"
                                     style="z-index:50000;position ">HOME</a>
                             </li>
                             <li class="menu-item text-center">
-                                <a href="Coworking" class="effect-ajax text-center">Coworking Space</a>
+                                <a href="coworking.php" class="effect-ajax text-center">Coworking Space</a>
                             </li>
                             <li class="menu-item text-center">
-                                <a href="course" class="effect-ajax text-center">Course</a>
+                                <a href="course.php" class="effect-ajax text-center">Course</a>
                             </li>
                             <li class="menu-item text-center">
-                                <a href="about-us" class="effect-ajax text-center">About</a>
+                                <a href="about-us.php" class="effect-ajax text-center">About</a>
                             </li>
                             <li class="menu-item text-center">
-                                <a href="contact" class="effect-ajax text-center">Contact</a>
+                                <a href="contact.php" class="effect-ajax text-center">Contact</a>
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>

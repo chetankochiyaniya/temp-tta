@@ -29,7 +29,7 @@
         }
 
         .ctm-title {
-            font-size: 3.2rem;
+            font-size: 4rem;
         }
 
         .ctm-dsn-service {
@@ -38,11 +38,7 @@
         }
 
         .cmt-pt {
-            padding-top: 20px;
-        }
-
-        .ctm-mr {
-            margin-right: 0px;
+            padding-top: 0px;
         }
 
 
@@ -54,10 +50,6 @@
         .ctm-explore-btn {
             background-color: aliceblue !important;
             color: black !important;
-        }
-
-        .cmt-pt-sm {
-            margin-top: 20px !important;
         }
 
         @media (min-width: 768px) {
@@ -72,19 +64,6 @@
 
             .ctm-enroll-btn {
                 padding-left: 0px;
-            }
-
-            .ctm-mr {
-                margin-right: 20px;
-            }
-
-
-            .ctm-title {
-                font-size: 4rem;
-            }
-
-            .cmt-pt-sm {
-                margin-top: auto;
             }
         }
     </style>
@@ -158,8 +137,7 @@
     <main id="main_root" class="main-root">
         <?php include "header.php" ?>
         <!-- Coworking fist container -->
-        <div class="half-background-overlay bg-pattern p-absolute left-0 top-0 w-100 h-"></div>
-        <div class="about-section about-arc pt-80 pb-80">
+        <div class="about-section about-arc pt-100 pb-section">
             <div class="container d-grid grid-md-2 cmt-pt">
                 <div class="box-left">
                     <h2 class="title-h2 p-relative body-font  heading-color text-upper">
@@ -171,30 +149,24 @@
                             <span class="w-100">AREA</span>
                         </h2>
                     </h2>
-                    <p class="dsn-heading-title d-inline-block p-relative mt-20 fa-2x">Welcome to Our Coworking
-                        Space
-                        and
-                        Trading Academy! </p>
                     <p class="dsn-heading-title d-inline-block p-relative mt-20">
                         A dynamic coworking environment for professionals, entrepreneurs, and traders,
                         paired with expert trading
                         courses to elevate your skills.
                     </p>
                     <div class="dsn-service ctm-dsn-service">
-                        <div
-                            class="dsn-normal-btn dsn-icon-heading-color d-flex align-items-center justify-content-center mt-20">
-                            <a class="dsn-btn  effect-ajax border-rdu move-circle ctm-explore-btn" data-dsn="parallax"
-                                href="#ctm-slider" data-dsn-text="THE TRADING AREA">
-                                <span class="title-btn p-relative  z-index-1">Explore Our Space <i
-                                        class="fas fa-arrow-right"></i></span>
-                            </a>
+                        <div class="ctm-buttons mr-15 mt-20">
+                            <a href="#">Book Your Workspace</a>
+                        </div>
+                        <div class="ctm-buttons mt-20 ctm-enroll-btn">
+                            <a href="#">Enroll Trading Course</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="box-right box-img">
                     <div class="dsn-bg-mask w-100 h-50 bottom-0  z-index-1"></div>
-                    <div class="h-100 cmt-pt-sm">
+                    <div class="h-100">
                         <img class="cover-bg-img" src="assets/img/new/trading-hand.png" alt="">
                     </div>
                 </div>
@@ -268,56 +240,32 @@
                 </div>
             </div>
         </div>
-        <div class="mt-70 background-section pt-100">
+        <div class="mt-70 background-section pt-30">
             <div class="container">
-                <div class="section-title text-center pb-100">
+                <div class="section-title text-center pb-30">
                     <div class="sub-section-title ">
                         <!-- <p class="description d-inline-block p-relative circle-before mb-10">
                             <span>OUR WORK</span>
                         </p> -->
-                        <span class="title-h2 title-block-lg d-block heading-color" style="text-transform:none">
-                            <span class="letter-stroke fw-bold">Join Today<br><span
-                                    style="color:white; font-weight: 500">Our
-                                    Coworking Space and Trading
-                                    Academy</span>
-                            </span>
+                        <span class="title-h2 title-block-lg d-block heading-color">
+                            <span>Join Today <br><b>Explore Our Space </b></span>
+                        </span>
                     </div>
-                    <p class=" dsn-heading-title d-inline-block p-relative mt-20 mb-20" style="text-transform:none">
-                        Elevate your professional journey by joining
-                        our modern coworking space, designed for professionals, freelancers, and teams
-                        seeking an
-                        inspiring environment. With high-speed internet, ergonomic workstations, and private
-                        meeting
-                        rooms, you'll find the perfect blend of comfort and productivity. In addition to our
-                        dynamic
-                        workspace, we offer a range of expert-led trading courses tailored for all levels.
-                        Whether
-                        you're a beginner or an advanced trader, our comprehensive programs cover everything
-                        from
-                        fundamental concepts to advanced strategies and algorithmic trading techniques.
-                        Discover new
-                        opportunities, collaborate with like-minded individuals, and gain the skills to
-                        excel in your
-                        career and trading journey—all in one place. Join us today and unlock your full
-                        potential!
+                    <p class="dsn-heading-title d-inline-block p-relative mt-20 mb-20">
+
                     </p>
-                    <div class="dsn-service ctm-dsn-service d-flex align-items-center justify-content-center">
-                        <div
-                            class="ctm-mr dsn-normal-btn dsn-icon-heading-color d-flex align-items-center justify-content-center mt-20">
-                            <a class="dsn-btn  effect-ajax border-rdu move-circle ctm-explore-btn" data-dsn="parallax"
-                                href="coworking.php" data-dsn-text="Coworking Space">
-                                <span class="title-btn p-relative  z-index-1">Book Your Workspace <i
-                                        class="fas fa-arrow-right"></i></span>
-                            </a>
-                        </div>
-                        <div
-                            class="dsn-normal-btn dsn-icon-heading-color d-flex align-items-center justify-content-center mt-20">
-                            <a class="dsn-btn  effect-ajax border-rdu move-circle ctm-explore-btn" data-dsn="parallax"
-                                href="course.php" data-dsn-text="Course">
-                                <span class="title-btn p-relative  z-index-1">Enroll Course <i
-                                        class="fas fa-arrow-right"></i></span>
-                            </a>
-                        </div>
+                    <div class="mt-20 mb-20">Discover a space where innovation meets comfort. With modern amenities and
+                        a
+                        vibrant community,
+                        our coworking space is designed to help you succeed.
+                        Whether you're freelancing or part of a team, we have everything you need to thrive.</div>
+                    <div
+                        class="dsn-normal-btn dsn-icon-heading-color d-flex align-items-center justify-content-center mt-20">
+                        <a class="dsn-btn  effect-ajax border-rdu move-circle ctm-explore-btn" data-dsn="parallax"
+                            href="#ctm-slider" data-dsn-text="OUR PORTFOLIO">
+                            <span class="title-btn p-relative  z-index-1">Explore <i
+                                    class="fas fa-arrow-down"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -354,17 +302,17 @@
                                             <div
                                                 class="p-relative head-meta swiper-animate-head  d-flex justify-content-between mb-20">
                                                 <div class="circle-before metas mb-10">
-                                                    <span>Coworking & Trading Space</span>
+                                                    <span>Coworking Trading</span>
                                                 </div>
                                             </div>
                                             <h2 class="title has-box-mod p-relative">
-                                                <a href="Coworking.php" data-dsn-split="chars" class="effect-ajax"
+                                                <a href="coworking.php" data-dsn-split="chars" class="effect-ajax"
                                                     data-dsn-ajax="slider">
                                                     The Trading Area
                                                 </a>
                                             </h2>
                                             <p class="description swiper-animate-head max-w570 mt-20">
-                                                Coworking space for Traders, Professional, Vibrant,
+                                                Coworking space for traders Professional, Vibrant,
                                                 Flexible and Creative Workspace.
                                             </p>
                                             <div class="d-flex mt-20 dsn-def-btn dsn-border-style">
@@ -378,20 +326,19 @@
                                     <div class="slide-item swiper-slide over-hidden">
                                         <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="3">
                                             <img class="cover-bg-img dsn-swiper-parallax-transform"
-                                                src="assets/img/new/space-banner.jpg" alt=""
-                                                data-dsn-position="50% 50%" />
+                                                src="assets/img/index/2.jpeg" alt="" data-dsn-position="50% 50%" />
                                         </div>
                                         <div class="slide-content p-absolute">
                                             <div
                                                 class="p-relative head-meta swiper-animate-head  d-flex justify-content-between mb-20">
                                                 <div class="circle-before metas mb-10">
-                                                    <span>Coworking</span>
+                                                    <span>Trading</span>
                                                     <span> - </span>
-                                                    <span>Space</span>
+                                                    <span>Coworking</span>
                                                 </div>
                                             </div>
                                             <h2 class="title has-box-mod p-relative">
-                                                <a href="Coworking.php" data-dsn-split="chars" class="effect-ajax"
+                                                <a href="coworking.php" data-dsn-split="chars" class="effect-ajax"
                                                     data-dsn-ajax="slider">
                                                     Coworking Space
                                                 </a>
@@ -405,41 +352,211 @@
                                                 a flexible workspace
                                                 equipped with amenities, encouraging networking and productivity.
                                             </p>
+                                            <div class="d-flex mt-20 dsn-def-btn dsn-border-style">
+                                                <a class="mr-15 dsn-btn dsn-border border-color-default background-main has-icon-left"
+                                                    href="project-5.html" data-dsn-ajax="slider" data-dsn="parallax">
+                                                    <!-- <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                                <span class="title-btn p-relative  z-index-1 heading-color">
+                                    VIEW CASE
+                                </span> -->
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="slide-item swiper-slide over-hidden">
                                         <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="2">
                                             <img class="cover-bg-img dsn-swiper-parallax-transform"
-                                                src="assets/img/new/trading-banner8.jpg" alt=""
-                                                data-dsn-position="50% 50%" />
+                                                src="assets/img/index/3.jpeg" alt="" data-dsn-position="50% 50%" />
                                         </div>
                                         <div class="slide-content p-absolute">
                                             <div
                                                 class="p-relative head-meta swiper-animate-head  d-flex justify-content-between mb-20">
                                                 <div class="circle-before metas mb-10">
-                                                    <span>Trading Courses</span>
-                                                    <span> & </span>
-                                                    <span>Workshops</span>
+
+                                                    <span>Coworking</span>
                                                 </div>
                                             </div>
                                             <h2 class="title has-box-mod p-relative">
                                                 <a href="course.php" data-dsn-split="chars" class="effect-ajax"
                                                     data-dsn-ajax="slider">
-                                                    Trading Courses & Workshops
+                                                    Traders Professional
                                                 </a>
                                             </h2>
                                             <p class="description swiper-animate-head max-w570 mt-20">
-                                                Learn the art of trading from seasoned professionals with practical,
-                                                hands-on workshops.
+                                                Traders Professionals thrive in co-working spaces, utilizing the
+                                                flexible setup to analyze
+                                                markets and make informed decisions, while also benefiting from
+                                                networking opportunities with
+                                                fellow traders
                                             </p>
+                                            <div class="d-flex mt-20 dsn-def-btn dsn-border-style">
+                                                <a class="mr-15 dsn-btn dsn-border border-color-default background-main has-icon-left"
+                                                    href="project-4.html" data-dsn-ajax="slider" data-dsn="parallax">
+                                                    <!-- <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                                <span class="title-btn p-relative  z-index-1 heading-color">
+                                    VIEW CASE
+                                </span> -->
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <!-- <div class="slide-item swiper-slide over-hidden">
+                                    <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="2">
+                                        <img class="cover-bg-img dsn-swiper-parallax-transform"
+                                             src="assets/img/portfolio/project3/1.jpg" alt=""
+                                             data-dsn-position="50% 50%"/>
+                                    </div>
+                                    <div class="slide-content p-absolute">
+                                        <div class="p-relative head-meta swiper-animate-head  d-flex justify-content-between mb-20">
+                                            <div class="circle-before metas mb-10">
+                                            <span>Trading </span>
+                                                    <span> - </span>
+                                                    <span>Advantage</span>
+                                            </div>
+                                        </div>
+                                        <h2 class="title has-box-mod p-relative">
+                                            <a href="project-3.html" data-dsn-split="chars" class="effect-ajax"
+                                               data-dsn-ajax="slider">
+                                               Advantage
+                                            </a>
+                                        </h2>
+                                        <p class="description swiper-animate-head max-w570 mt-20">
+                                        Experience a vibrant co-working space tailored for traders, pulsating
+                                                with market energy and
+                                                equipped with cutting-edge resources, creating a stimulating environment
+                                                for strategic trades
+                                                and dynamic growth.
+                                        </p>
+
+                                        <div class="d-flex mt-20 dsn-def-btn dsn-border-style">
+                                            <a class="mr-15 dsn-btn dsn-border border-color-default background-main has-icon-left"
+                                               href="project-3.html"
+                                               data-dsn-ajax="slider" data-dsn="parallax">
+                                <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                                <span class="title-btn p-relative  z-index-1 heading-color">
+                                    VIEW CASE
+                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+
+
+
+
+
+
+
+
+                                    <!-- <div class="slide-item swiper-slide over-hidden">
+                                    <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="4">
+                                        <img class="cover-bg-img dsn-swiper-parallax-transform"
+                                             src="assets/img/portfolio/project2/1.jpg" alt=""
+                                             data-dsn-position="50% 50%"/>
+                                    </div>
+                                    <div class="slide-content p-absolute">
+                                        <div class="p-relative head-meta swiper-animate-head  d-flex justify-content-between mb-20">
+                                            <div class="circle-before metas mb-10">
+                                                <span>Photography</span>
+                                            </div>
+                                        </div>
+                                        <h2 class="title has-box-mod p-relative">
+                                            <a href="project-2.html" data-dsn-split="chars" class="effect-ajax"
+                                               data-dsn-ajax="slider">
+                                                MEN FASHION
+                                            </a>
+                                        </h2>
+                                        <p class="description swiper-animate-head max-w570 mt-20">
+                                            Jaramillo Published June 15th 2022 Caption #1 Caption #2 Caption #3 How is
+                                            your
+                                            visual
+                                            identity? we
+                                        </p>
+
+                                        <div class="d-flex mt-20 dsn-def-btn dsn-border-style">
+                                            <a class="mr-15 dsn-btn dsn-border border-color-default background-main has-icon-left"
+                                               href="project-2.html"
+                                               data-dsn-ajax="slider" data-dsn="parallax">
+                                <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                                <span class="title-btn p-relative  z-index-1 heading-color">
+                                    VIEW CASE
+                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+
+
+
+
+
+
+                                    <!-- <div class="slide-item swiper-slide over-hidden">
+                                    <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="4">
+                                        <img class="cover-bg-img dsn-swiper-parallax-transform"
+                                             src="assets/img/portfolio/project1/1.jpg" alt=""
+                                             data-dsn-position="50% 50%"/>
+                                    </div>
+                                    <div class="slide-content p-absolute">
+                                        <div class="p-relative head-meta swiper-animate-head  d-flex justify-content-between mb-20">
+                                            <div class="circle-before metas mb-10">
+                                                <span>CREATIVE</span>
+                                                <span>-</span>
+                                                <span>Photography</span>
+                                            </div>
+                                        </div>
+                                        <h2 class="title has-box-mod p-relative">
+                                            <a href="project-1.html" data-dsn-split="chars" class="effect-ajax"
+                                               data-dsn-ajax="slider">
+                                                VISIONAID
+                                            </a>
+                                        </h2>
+                                        <p class="description swiper-animate-head max-w570 mt-20">
+                                            Meet VisionAid™. Patents Pending. Wondour™ was tasked with creating a pair
+                                            of
+                                            electronic
+                                            glasses that can help legally-blind and low-vision people
+                                        </p>
+
+                                        <div class="d-flex mt-20 dsn-def-btn dsn-border-style">
+                                            <a class="mr-15 dsn-btn dsn-border border-color-default background-main has-icon-left"
+                                               href="project-1.html"
+                                               data-dsn-ajax="slider" data-dsn="parallax">
+                                <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                                <span class="title-btn p-relative  z-index-1 heading-color">
+                                    VIEW CASE
+                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+
+
+
+
+
+
+
                                 </div>
                             </div>
                         </div>
                         <div class="dsn-container d-flex align-items-end dsn-slider-content dsn-hero-parallax-title">
                         </div>
                     </div>
+
 
                     <div class="dsn-swiper-paginate">
                         <div class="swiper-pagination dsn-swiper-circle mr-30 ml-30 heading-color"></div>
@@ -450,7 +567,7 @@
 
 
                         <div class="dsn-pagination p-relative d-flex align-items-end">
-                            <span class="slider-current-index h2">1</span>
+                            <span class="slider-current-index h2">01</span>
                             <span class="sm-title-block">/ </span><span class="total sm-title-block"> 3</span>
                         </div>
 
@@ -467,15 +584,7 @@
 
             <div id="page_wrapper" class="wrapper">
                 <!-- ========== Service Icon Left ========== -->
-                <div class="container icon-left pt-100 pb-20">
-                    <div class="sub-section-title text-center pb-50">
-                        <p class="description d-inline-block p-relative mb-10">
-                            <span>A perfect space for growth, innovation, and trading.</span>
-                        </p>
-                        <span class="title-h2 title-block-lg d-block heading-color">
-                            <span>Unlock Your Ideal Workspace<br></span>
-                        </span>
-                    </div>
+                <div class="container icon-left pt-30 pb-30">
                     <div class="d-grid grid-md-3 grid-sm-2 dsn-service" data-dsn-iconsize="60px">
                         <div class="service-item p-relative grid-item">
                             <div class="service-item-inner align-items-center number-item h-100">
@@ -540,15 +649,57 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="dsn-normal-btn dsn-icon-heading-color d-flex align-items-center justify-content-center mt-20 pt-30">
-                        <a class="dsn-btn  effect-ajax border-rdu move-circle ctm-explore-btn" data-dsn="parallax"
-                            href="coworking.php" data-dsn-text="Coworking Space">
-                            <span class="title-btn p-relative  z-index-1">Book Your Seat Now <i
-                                    class="fas fa-arrow-right"></i></span>
-                        </a>
+                </div>
+                <!-- ========== End Service Icon Left ========== -->
+
+                <!-- ========== About Section One ========== -->
+                <!-- <section class="about-section about-one p-relative section-padding background-section">
+                <div class="p-relative container">
+                    <div class="bg-mask background-main w-70 h-55 v-middle"></div>
+                    <div class="d-grid grid-md-2">
+                        <div class="box-info">
+                            <h2 class="title">
+                        <span class="letter-stroke d-block"
+                              data-dsn-animation='{"from":{"paddingLeft":"10%"},"to":{"paddingLeft":"20%"},"responsive":["tablet","desktop"]}'>
+                            WE ARE
+                        </span>
+                                <span>BLACK DSN</span>
+                                <span class="text-right w-100">AGENCY</span>
+                            </h2>
+                            <div class="d-grid grid-half-1 align-items-center mt-10">
+                                <div class="dsn-def-btn dsn-hover-icon ">
+                                    <a class="dsn-btn background-main effect-ajax has-icon-left"
+                                       href="https://dsngrid.com/blackdsn/about-us/" data-dsn-text="About Us"
+                                       data-dsn="parallax">
+                            <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                <i class="fas fa-angle-right"></i>
+                            </span>
+                                        <span class="title-btn p-relative  z-index-1 heading-color">ABOUT US</span>
+                                    </a>
+                                </div>
+                                <div class="p-large text-right">
+                                    <p class="max-w350">
+                                        We build and activate brands through cultural insight, strategic vision, and the
+                                        power
+                                        of emotion across every element of its expression.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="box-img">
+                            <img decoding="async" class="cover-bg-img" src="assets/img/about-1.jpg" title="" alt="">
+                        </div>
+                    </div>
+                    <div class="p-relative box-img-bottom hv-50">
+                        <img class="cover-bg-img" decoding="async" src="assets/img/about-2.jpeg" title="" alt="">
                     </div>
                 </div>
+
+
+            </section> -->
+                <!-- ========== End About Section One ========== -->
 
                 <!-- ========== Service ========== -->
                 <div class="container section-margin">
@@ -597,7 +748,7 @@
                                             </p>
                                         </div>
                                         <div class="d-flex mt-20 dsn-def-btn dsn-hover-icon">
-                                            <a href="Coworking.php"
+                                            <a href="coworking.php"
                                                 class="effect-ajax dsn-btn dsn-border border-color-default background-section has-icon-right">
                                                 <span class="title-btn p-relative  z-index-1 heading-color">LEARN
                                                     MORE</span>
@@ -739,7 +890,7 @@
                             </ul>
                             <div class="dsn-def-btn dsn-icon-heading-color mt-20 d-flex">
                                 <a class="dsn-btn dsn-border border-color-default background-main effect-ajax has-icon-left"
-                                    href="course.php" data-dsn-text="THE TRADING AREA">
+                                    href="course.php" data-dsn-text="HEADPHONES">
                                     <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                                         <i class="fas fa-angle-right"></i>
                                     </span>
@@ -802,7 +953,7 @@
                             </ul>
                             <div class="dsn-def-btn dsn-icon-heading-color mt-20 d-flex">
                                 <a class="dsn-btn dsn-border border-color-default background-main effect-ajax has-icon-left"
-                                    href="Coworking.php" data-dsn-text="THE TRADING AREA">
+                                    href="coworking.php" data-dsn-text="HEADPHONES">
                                     <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                                         <i class="fas fa-angle-right"></i>
                                     </span>
@@ -961,7 +1112,7 @@
 
                             <div class="dsn-def-btn dsn-icon-heading-color mt-30 d-flex">
                                 <a class="dsn-btn dsn-border border-color-default  background-section effect-ajax effect-ajax  move-circle has-icon-left"
-                                    href="contact.php" data-dsn-text="THE TRADING AREA" data-dsn="parallax">
+                                    href="contact.php" data-dsn-text="STUDIO" data-dsn="parallax">
                                     <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                                         <i class="fas fa-angle-right"></i>
                                     </span>
@@ -1265,6 +1416,213 @@
                 </div>
                 <!-- ========== End testimonials ========== -->
 
+                <!-- ========== Stories ========== -->
+                <!-- <div class="p-relative section-margin">
+                <div class="container section-title mb-70 d-grid grid-md-2 ">
+                    <div class=" d-flex">
+                        <div class="sub-section-title ">
+                            <p class="description d-inline-block p-relative circle-before mb-10">
+                                <span>Latest News </span>
+                            </p>
+                            <span class="title-h2 title-block-lg d-block heading-color">
+                        <span>Latest and <b><br>greatest post</b></span>
+                    </span>
+                        </div>
+                    </div>
+                    <div class="dsn-def-btn dsn-icon-heading-color align-self-end justify-self-end">
+                        <a class="dsn-btn dsn-border border-color-default  background-section effect-ajax effect-ajax  move-circle has-icon-left"
+                           href="stories.html" data-dsn-text="Our Stories" data-dsn="parallax"> <span
+                                class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1"><i
+                                class="fas fa-angle-right"></i></span> <span
+                                class="title-btn p-relative  z-index-1 heading-color">VIEW ALL NEWS</span> </a>
+                    </div>
+                </div>
+                <div class="p-relative dsn-style-classic dsn-under-img dsn-container dsn-right-container">
+                    <div class="root-posts ">
+                        <div class="dsn-posts dsn-post-type-classic h-350">
+                            <div class="has-parallax-image dsn-swiper p-relative"
+                                 data-dsn-option='{"slidesPerView":2.5,"spaceBetween":30,"centeredSlides":false}'>
+                                <div class="swiper-container ">
+                                    <div class="swiper-wrapper">
+                                        <article
+                                                class="dsn-item-post grid-item over-hidden p-relative box-hover-image v-dark-head background-section swiper-slide">
+                                            <div class="box-content d-flex ">
+                                                <a class="effect-ajax box-image-link bg-shadow" href="single-post.html"
+                                                   data-dsn-text="Our Stories">
+                                                    <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
+                                                         data-overlay="4">
+                                                        <img src="assets/img/blog/1.jpg" class="cover-bg-img" alt=""/>
+                                                    </div>
+                                                </a>
+                                                <div class="post-content dsn-bg p-relative z-index-1 d-flex flex-column">
+
+                                                    <div class="post-title-info">
+                                                        <div class="post-meta max-w750">
+                                                            <div class="entry-date d-inline-block entry-meta mb-10">
+                                                                June 12, 2022
+                                                            </div>
+                                                            <span class="mr-5 ml-5 separator-between"> ..</span>
+                                                            <div class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
+                                                                <span data-separator=" & ">Uncategorized</span>
+                                                            </div>
+                                                        </div>
+                                                        <h2 class="post-title dsn-bg title-block">
+                                                            <a class="effect-ajax" href="single-post.html"
+                                                               data-dsn-text="Our Stories">
+                                                                Wildlife could be amazing, see why.
+                                                            </a>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="post-description-info ">
+                                                        <p class="section_description mt-15 max-w570 ">
+                                                            qProin faucibus nec
+                                                            mauris a sodales, sed elementum mi tincidunt. Sed eget
+                                                            viverra
+                                                            egestas
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                        </article>
+                                        <article
+                                                class="dsn-item-post grid-item over-hidden p-relative box-hover-image v-dark-head background-section swiper-slide">
+                                            <div class="box-content d-flex ">
+                                                <a class="effect-ajax box-image-link bg-shadow" href="single-post.html"
+                                                   data-dsn-text="Our Stories">
+                                                    <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
+                                                         data-overlay="4">
+                                                        <img src="assets/img/blog/2.jpg" class="cover-bg-img" alt=""/>
+                                                    </div>
+                                                </a>
+                                                <div class="post-content dsn-bg p-relative z-index-1 d-flex flex-column">
+
+                                                    <div class="post-title-info">
+                                                        <div class="post-meta max-w750">
+                                                            <div class="entry-date d-inline-block entry-meta mb-10">
+                                                                Marc 15, 2022
+                                                            </div>
+                                                            <span class="mr-5 ml-5 separator-between"> ..</span>
+                                                            <div class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
+                                                                <span data-separator=" & ">Editorial</span>
+                                                            </div>
+                                                        </div>
+                                                        <h2 class="post-title dsn-bg title-block">
+                                                            <a class="effect-ajax" href="single-post.html"
+                                                               data-dsn-text="Our Stories">
+                                                                Quick tips for an effective styled wedding
+                                                            </a>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="post-description-info ">
+                                                        <p class="section_description mt-15 max-w570 ">
+                                                            qProin faucibus nec
+                                                            mauris a sodales, sed elementum mi tincidunt. Sed eget
+                                                            viverra
+                                                            egestas
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                        </article>
+                                        <article
+                                                class="dsn-item-post grid-item over-hidden p-relative box-hover-image v-dark-head background-section swiper-slide">
+                                            <div class="box-content d-flex ">
+                                                <a class="effect-ajax box-image-link bg-shadow" href="single-post.html"
+                                                   data-dsn-text="Our Stories">
+                                                    <div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
+                                                         data-overlay="4">
+                                                        <img src="assets/img/blog/3.jpg" class="cover-bg-img" alt=""/>
+                                                    </div>
+                                                </a>
+                                                <div class="post-content dsn-bg p-relative z-index-1 d-flex flex-column">
+
+                                                    <div class="post-title-info">
+                                                        <div class="post-meta max-w750">
+                                                            <div class="entry-date d-inline-block entry-meta mb-10">
+                                                                Oct 23, 2022
+                                                            </div>
+                                                            <span class="mr-5 ml-5 separator-between"> ..</span>
+                                                            <div class="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
+                                                                <span data-separator=" & ">Editorial</span>
+                                                            </div>
+                                                        </div>
+                                                        <h2 class="post-title dsn-bg title-block">
+                                                            <a class="effect-ajax" href="single-post.html"
+                                                               data-dsn-text="Our Stories">
+                                                                Soul Artwork from Lizzy styled wedding
+                                                            </a>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="post-description-info ">
+                                                        <p class="section_description mt-15 max-w570 ">
+                                                            qProin faucibus nec
+                                                            mauris a sodales, sed elementum mi tincidunt. Sed eget
+                                                            viverra
+                                                            egestas
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                        </article>
+                                    </div>
+                                    <div class="dsn-swiper-paginate  d-flex p-relative w-100 h-100 mt-50 align-items-center dsn-container justify-content-between">
+                                        <div class="swiper-prev">
+                                            <div class="prev-container">
+                                                <div class="container-inner">
+                                                    <div class="triangle"></div>
+                                                    <svg class="circle" xmlns="http://www.w3.org/2000/svg"
+                                                         viewBox="0 0 24 24">
+                                                        <g class="circle-wrap" fill="none" stroke-width="1"
+                                                           stroke-linejoin="round" stroke-miterlimit="10">
+                                                            <circle cx="12" cy="12" r="10.5"></circle>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination  mr-30 ml-30 heading-color"
+                                             data-dsn-type="progressbar"></div>
+                                        <div class="swiper-next">
+                                            <div class="next-container">
+                                                <div class="container-inner">
+                                                    <div class="triangle"></div>
+                                                    <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                         height="24" viewBox="0 0 24 24">
+                                                        <g class="circle-wrap" fill="none" stroke-width="1"
+                                                           stroke-linejoin="round" stroke-miterlimit="10">
+                                                            <circle cx="12" cy="12" r="10.5"></circle>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+                <!-- ========== End Stories ========== -->
+
+
+                <!-- ========== Brand ========== -->
+
+                <!-- ========== End Brand ========== -->
+
+
                 <!-- ========== Footer ========== -->
 
                 <?php include "footer.php" ?>
@@ -1310,6 +1668,8 @@
         </ul>
         <div class="icon">FOLLOW US</div>
     </div>
+    <!-- ========== End Social ========== -->
+
     <!-- ========== Line BG ========== -->
     <div id="line_head"><span class="container"></span></div>
     <!-- ========== End Line BG ========== -->

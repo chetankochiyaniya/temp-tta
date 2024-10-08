@@ -56,8 +56,10 @@
             color: black !important;
         }
 
-        .cmt-pt-sm {
-            margin-top: 20px !important;
+
+        .ctm-sub-text {
+            font-size: 1.2rem;
+            font-weight: 600;
         }
 
         @media (min-width: 768px) {
@@ -83,8 +85,9 @@
                 font-size: 4rem;
             }
 
-            .cmt-pt-sm {
-                margin-top: auto;
+            .ctm-sub-text {
+                font-size: 2em;
+                font-weight: 500;
             }
         }
     </style>
@@ -158,7 +161,7 @@
     <main id="main_root" class="main-root">
         <?php include "header.php" ?>
         <!-- Coworking fist container -->
-        <div class="half-background-overlay bg-pattern p-absolute left-0 top-0 w-100 h-"></div>
+        <div class="background-overlay bg-pattern p-absolute left-0 top-0 w-100 h-100"></div>
         <div class="about-section about-arc pt-80 pb-80">
             <div class="container d-grid grid-md-2 cmt-pt">
                 <div class="box-left">
@@ -171,7 +174,7 @@
                             <span class="w-100">AREA</span>
                         </h2>
                     </h2>
-                    <p class="dsn-heading-title d-inline-block p-relative mt-20 fa-2x">Welcome to Our Coworking
+                    <p class="dsn-heading-title d-inline-block p-relative mt-20 ctm-sub-text">Welcome to Our Coworking
                         Space
                         and
                         Trading Academy! </p>
@@ -194,7 +197,7 @@
 
                 <div class="box-right box-img">
                     <div class="dsn-bg-mask w-100 h-50 bottom-0  z-index-1"></div>
-                    <div class="h-100 cmt-pt-sm">
+                    <div class="h-100">
                         <img class="cover-bg-img" src="assets/img/new/trading-hand.png" alt="">
                     </div>
                 </div>
@@ -469,7 +472,7 @@
                 <!-- ========== Service Icon Left ========== -->
                 <div class="container icon-left pt-100 pb-20">
                     <div class="sub-section-title text-center pb-50">
-                        <p class="description d-inline-block p-relative mb-10">
+                        <p class="description d-inline-block p-relative circle-before mb-10">
                             <span>A perfect space for growth, innovation, and trading.</span>
                         </p>
                         <span class="title-h2 title-block-lg d-block heading-color">

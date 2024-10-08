@@ -651,15 +651,6 @@ body:not(.dsn-cursor-effect) #dsn_cursor_inner {
     clip-path: circle(44% at 50% 50%);
 }
 
-.half-background-overlay {
-    height: 54%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none;
-}
-
 .background-overlay {
     height: 100%;
     width: 100%;
@@ -1091,10 +1082,6 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.menu_class {
-    font-size: 22px;
-}
-
 .site-header {
     position: fixed;
     top: 0;
@@ -1453,7 +1440,7 @@ a:active {
 .site-header.dsn-hamburger #navbar_toggle .toggle-text {
     position: relative;
     --animate-trans: translateY(5px) rotateX(75deg);
-    min-width: 80px;
+    min-width: 43px;
 }
 
 .site-header.dsn-hamburger #navbar_toggle .toggle-text .text-open,
@@ -8234,13 +8221,13 @@ body.tax-product_cat #dsn_header {
 }
 
 
-.manual_logo {
-    width: 170px !important;
-}
-
 /* .manual_logo {
-    width: 120px !important;
+    width: 170px !important;
 } */
+
+.manual_logo {
+    width: 120px !important;
+}
 
 
 /* If this style is not applying, try making it more specific */

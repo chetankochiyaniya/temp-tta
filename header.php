@@ -1,6 +1,6 @@
 <header id="site_menu_header" class="site-header fixed-top dsn-container d-none dsn-hamburger">
     <div class="main-logo">
-        <a href="index" data-dsn-text="TTA" class="custom-logo-link main-brand effect-ajax" rel="home"
+        <a href="index.php" data-dsn-text="TTA" class="custom-logo-link main-brand effect-ajax" rel="home"
             aria-current="page">
             <img src="assets/img/icon/Logo-w_name.png" class="manual_logo custom-logo logo-light" alt="TTA" />
             <img src="assets/img/icon/Logo_name.png" class="manual_logo custom-logo logo-dark" alt="black_logo" />
@@ -14,53 +14,54 @@
         <div id="chat-frame"></div>
         <ul id="dsn-primary-list" class="primary-nav h2">
             <li class="nav-item">
-                <a title="Home" href="index">
+                <a title="Home" href="index.php">
                     <span class="overflow">Home</span>
                 </a>
             </li>
-            
+
             <li class="nav-item">
-                <a title="Service" href="Coworking">
+                <a title="Service" href="coworking.php">
                     <span class="overflow">Coworking Space</span>
                 </a>
             </li>
 
 
             <li class="nav-item">
-                <a title="Home" href="course">
+                <a title="Home" href="course.php">
                     <span class="overflow">Course</span>
                 </a>
             </li>
-          
-            
+
+
             <li class="nav-item">
-                <a title="Home" href="about-us">
+                <a title="Home" href="about-us.php">
                     <span class="overflow">About</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a title="Home" href="contact">
+                <a title="Home" href="contact.php">
                     <span class="overflow">Contact</span>
                 </a>
             </li>
-           
-            
+
+
         </ul>
 
         <div class="container-content d-flex flex-column justify-content-center section-margin">
             <div class="nav__info">
                 <div class="nav-content">
                     <h5 class="sm-title-block mb-10">Venue</h5>
-                    601, Asopalav Avenue, Nana Mava Main Rd, beside Gandhi School, opp. Aalap Twin Tower, Satyam Park, Nana Mava, Rajkot, Gujarat 360005
+                    601, Asopalav Avenue, Nana Mava Main Rd, beside Gandhi School, opp. Aalap Twin Tower, Satyam Park,
+                    Nana Mava, Rajkot, Gujarat 360005
                 </div>
                 <div class="nav-content mt-30">
                     <h5 class="sm-title-block mb-10">Contact</h5>
                     <p class="links over-hidden mb-1">
                         <a class="link-hover d-block" href="tel:+9979422197" data-hover-text="+91 9979422197">
-                        9979422197</a>
+                            9979422197</a>
                         <a class="link-hover" href="tel:+9974373146" data-hover-text="+91 9974373146">
-                        9974373146</a>
-                
+                            9974373146</a>
+
 
                     </p>
                     <p class="links over-hidden">
